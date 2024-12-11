@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header with Image, Logo, Title, and Tagline</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <!-- Linking to the styles.css and style1.css -->
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <!-- Header section with background image and logo overlay -->
+    <header class="header-container">
+        <!-- Site title positioned above logo -->
+        <img src="https://assets.onecompiler.app/42xqq6yd5/42xtckhyv/Beige%20Minimalist%20Photo%20Flowers%20Hello%20Spring%20Facebook%20Fundraiser%20Cover%20Photo%20(2).png" 
+             alt="Site Title" class="site-title">
+        
+        <!-- Logo positioned at the bottom-left corner -->
+        <img src="https://assets.onecompiler.app/42xqq6yd5/42xqqjswg/fb195749-bede-48ed-adf0-9b1097ce60cc.png" 
+             alt="Logo" class="logo">
+        
+        <!-- Tagline positioned beside the logo -->
+        <img src="https://assets.onecompiler.app/42xqq6yd5/42xtckhyv/Beige%20Minimalist%20Photo%20Flowers%20Hello%20Spring%20Facebook%20Fundraiser%20Cover%20Photo%20(3).png" 
+             alt="Tagline" class="tagline">
+        
+        <!-- Navigation bar positioned at the top-right corner -->
+        <nav class="navbar">
+            <a href="index.html">HOME</a> <!-- Link to the home page explicitly -->
+            <a href="about.html" class="active">ABOUT US</a> <!-- Linked to about.html -->
+            <a href="contact.html">CONTACT US</a> <!-- Linked to contact.html -->
+        </nav>
+    </header>
+
+    <!-- Second navbar section (below the header) -->
+    <div class="second-navbar">
+        <a href="election.html">ELECTION</a>  <!-- Corrected link to election.html -->
+        <a href="voters.html">VOTERS</a>
+        <a href="informedvoting.html">INFORMED VOTING</a>
+        <a href="votingprocess.html">VOTING PROCESS</a>
+        <a href="do'sanddont's.html">DO'S AND DONT'S</a>
+    </div>
+
+    <!-- Main content section with borders -->
+    <div class="main-content">
+        <!-- Left side content -->
+        <div class="left-side">
+            <h2>HOME</h2>
+            <p>Your Vote Shapes Our Nation’s Future. As the 2025 election approaches, each of us holds the power to influence the future of our country. This is our chance to foster progress and build a stronger, more responsible government with integrity. Now more than ever, let us commit to making informed, mindful choices at the polls.</p>
+            
+            <p class="highlighted-text" style="font-size: 30px;">VOTE INTELLIGENTLY AND IN THE LIGHT OF HOPE FOR A BRIGHTER TOMORROW.</p>
+            
+            <!-- Countdown Timer placed under the paragraph -->
+            <div class="countdown-timer">
+                <div class="countdown-title">Days to Go Before the</div>
+                <div class="countdown-date">2025 National & Local Elections</div>
+                <div class="countdown">
+                    <span id="days">180</span> days 
+                    <span id="hours">00</span> hours
+                    <span id="minutes">00</span> minutes
+                    <span id="seconds">00</span> seconds
+                </div>
+                <div class="election-date">(May 12, 2025)</div>
+            </div>
+
+            <!-- Moving GIF added here -->
+            <div class="gif-container" style="margin-top: 20px; text-align: center;">
+                <img src="https://assets.onecompiler.app/42xqq6yd5/42ygn6b83/Kaakibat%20niyo%20sa%20bawat%20eleksyon.gif" 
+                     alt="Kaakibat niyo sa bawat eleksyon" style="width: 700px; height: auto;">
+            </div>
+        </div>
+
+        <!-- Right side section for Image Slider and Mission & Vision -->
+        <div class="right-side">
+            <!-- Image Slider -->
+            <div class="image-slider">
+                <div class="slider-container">
+                    <div class="slide"><img src="https://assets.onecompiler.app/42xqq6yd5/42xqqjswg/Untitled%20(11%20x%208.5%20cm)%20(7).png" alt="Image 1"></div>
+                    <div class="slide"><img src="https://assets.onecompiler.app/42xqq6yd5/42xqqjswg/Untitled%20(11%20x%208.5%20cm)%20(6).png" alt="Image 2"></div>
+                    <div class="slide"><img src="https://assets.onecompiler.app/42xqq6yd5/42xqqjswg/Untitled%20(11%20x%208.5%20cm)%20(5).png" alt="Image 3"></div>
+                    <div class="slide"><img src="https://assets.onecompiler.app/42xqq6yd5/42xqqjswg/Untitled%20(11%20x%208.5%20cm)%20(4).png" alt="Image 4"></div>
+                    <div class="slide"><img src="https://assets.onecompiler.app/42xqq6yd5/42xqqjswg/Untitled%20(11%20x%208.5%20cm)%20(3).png" alt="Image 5"></div>
+                    <div class="slide"><img src="https://assets.onecompiler.app/42xqq6yd5/42xqqjswg/Untitled%20(11%20x%208.5%20cm)%20(2).png" alt="Image 6"></div>
+                    <div class="slide"><img src="https://assets.onecompiler.app/42xqq6yd5/42xqqjswg/Untitled%20(11%20x%208.5%20cm)%20(1).png" alt="Image 7"></div>
+                    <!-- Additional slides... -->
+                </div>
+                <!-- Navigation Arrows -->
+                <button class="prev">&#10094;</button>
+                <button class="next">&#10095;</button>
+            </div>
+            <script src="script.js"></script>
+
+            <!-- Mission and Vision Section -->
+            <div class="mission-vision">
+                <h3 class="mission-title">MISSION</h3>
+                <p class="mission-text">
+                    To promote informed voting during the senatorial elections. The website aims to guide people in making wise decisions on who to vote for and encourage others to actively participate in the election process.
+                </p>
+                <h3 class="vision-title">VISION</h3>
+                <p class="vision-text">
+                    This website will serve as a tool to help Filipinos make informed choices during the voting process, playing a significant role in promoting transparency and engagement. By providing reliable information, the website will positively impact the outcomes of the upcoming election.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script> <!-- Link to your JavaScript file -->
+</body>
+</html>
